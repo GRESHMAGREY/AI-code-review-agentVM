@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+python-dotenv
+PyGithub
+pydantic
+
+# Install ONE of these depending on your LLM_PROVIDER choice:
+# anthropic          # for LLM_PROVIDER=anthropic
+# openai             # for LLM_PROVIDER=openai or LLM_PROVIDER=azure_openai
